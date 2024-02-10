@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./Pictures/Logo.png">
+    <link rel="stylesheet" id="darkHref" href="CSS/master.css">
+    <meta charset="UTF-8">
+    <title>مسابقة أفضل لاعب بيس 2024</title>
+</head>
+
+<body>
+    <div style="padding-top: 110px;" class="match-page" id="MatchHistory">
+        <p class="MatchHistoryText"><span id="menuTitle"></span>اخر تحديث للسوق</p>
+        <div class="box">
+            <img src="./Pictures/Logo.png">
+            <div class="left">
+                <p class="title">بطاقة تطوير</p>
+                <p class="desk">هذه البطاقة تتيح لك الاطلاع علي جميع اكواد اللاعبين عند الضغط علي صوره الملف الشخصي</p>
+                <button id="ShopDevolper">Coin 500 - شراء الان</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./Pictures/Shopdark.png">
+            <div class="left">
+                <p class="title">المظهر المظلم</p>
+                <p class="desk">هذه البطاقة تتيح لك تغييرشكل الموقع</p>
+                <button id="ShopDark">Coin 15 - شراء الان</button>
+            </div>
+        </div>
+    </div>
+    <div class="add-massage-box" id="addMassageBox">
+        <div class="add-massage-box-content">
+            <div class="add-massage-box-header">
+                <button id="Massageclosebtn" class="add-massage-box-close"><i class="fa-solid fa-xmark"></i></button>
+                <p>إنشاء منشور</p>
+                <img id="massageImage">
+            </div>
+            <form class="formcarryForm" action="https://formcarry.com/s/rzRUwt2nFVn" enctype="multipart/form-data">
+                <input required style="display: none;" type="text" name="Profile Name" id="ProfileMassageName">
+                <textarea title="ادخل محتوي الرسالة" required name="The Massage"
+                    placeholder="أدخل محتوي المنشور"></textarea>
+                <input class="massage-input" type="submit" value="نشر">
+            </form>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        </div>
+        <div class="Massageclosebtn" id="Massageclosebtnfull"></div>
+    </div>
+    <div class="match-list" id="matchList">
+        <div class="opition-box">
+            <button class="opition-button" id="matchRankBtn">
+                الأخبار
+                <div class="new" id="new"></div>
+            </button>
+            <button class="opition-button" id="matchLevelBtn">الترتيب</button>
+            <button class="opition-button" id="matchlisthomebtn">المباريات</button>
+        </div>
+        <div style="display: block;" class="match-page" id="matchhome">
+            <p style="margin-top: 10px;" class="match-page-text">دور الثمانية</p>
+            <div class="massage">
+                <p class="match-time">
+                    يتم تحديدها لاحقاً
+                </p>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+                <div class="massage-hr"></div>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+            </div>
+            <div class="massage">
+                <p class="match-time">
+                    يتم تحديدها لاحقاً
+                </p>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+                <div class="massage-hr"></div>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+            </div>
+            <div class="massage">
+                <p class="match-time">
+                    يتم تحديدها لاحقاً
+                </p>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+                <div class="massage-hr"></div>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+            </div>
+            <div class="massage">
+                <p class="match-time">
+                    يتم تحديدها لاحقاً
+                </p>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+                <div class="massage-hr"></div>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+            </div>
+            <p class="match-page-text">دور نصف النهائي</p>
+            <div class="massage">
+                <p class="match-time">
+                    يتم تحديدها لاحقاً
+                </p>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+                <div class="massage-hr"></div>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+            </div>
+            <div class="massage">
+                <p class="match-time">
+                    يتم تحديدها لاحقاً
+                </p>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+                <div class="massage-hr"></div>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+            </div>
+            <p class="match-page-text">دور النهائي</p>
+            <div class="massage">
+                <p class="match-time">
+                    يتم تحديدها لاحقاً
+                </p>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+                <div class="massage-hr"></div>
+                <div class="masssage-info">
+                    <p class="timeP"><span></span><span>لم يتم التحديد بعد</span></p>
+                    <img src="./Pictures/match image.png">
+                </div>
+            </div>
+        </div>
+        <div class="match-page" id="matchrankbox">
+            <p class="support-text">يتم مراجعة المنشورات اولاً قبل اضافتها فى الموقع</p>
+            <button class="add-massage" id="addMassage"><i class="fa-solid fa-plus"></i></button>
+            <div class="massage">
+                <div class="masssage-info">
+                    <p>حازم محمد</p>
+                    <img src="./Pictures/hazem.png">
+                </div>
+                <div class="massage-hr"></div>
+                <p class="massage-text">.يارب الموقع يعجبكم</p>
+            </div>
+        </div>
+        <div class="match-page" id="matchlevel">
+            <div style="color: rgba(100 0 255);" class="match-box">
+                <div class="match-list-content">
+                    <p>نقاط</p>
+                    <p>خ</p>
+                    <p>ت</p>
+                    <p>ف</p>
+                    <p>اللعب</p>
+                </div>
+                <div class="match-list-content">
+                    <p>الفريق</p>
+                </div>
+            </div>
+            <div style="display: none;" class="match-box">
+                <div class="match-list-content sp">
+                    <p>0</p>
+                    <p id="hazemListLost">0</p>
+                    <p id="hazemListEaqal">0</p>
+                    <p id="hazemListWin">0</p>
+                    <p>0</p>
+                </div>
+                <div class="match-list-content">
+                    <p>حازم محمد</p>
+                    <img src="./Pictures/hazem.png">
+
+                </div>
+            </div>
+            <div class="match-box">
+                <div class="match-list-content sp">
+                    <p>0</p>
+                    <p id="elboraeyListLost">0</p>
+                    <p id="elboraeyListEaqal">0</p>
+                    <p id="elboraeyListWin">0</p>
+                    <p>0</p>
+                </div>
+                <div class="match-list-content">
+                    <p>أحمد البرعي</p>
+                    <img src="./Pictures/elboraey.png">
+                </div>
+            </div>
+            <div class="match-box">
+                <div class="match-list-content sp">
+                    <p>0</p>
+                    <p id="zainListLost">0</p>
+                    <p id="zainListEaqal">0</p>
+                    <p id="zainListWin">0</p>
+                    <p>0</p>
+                </div>
+                <div class="match-list-content">
+                    <p>زين علام</p>
+                    <img src="./Pictures/zain.png">
+                </div>
+            </div>
+            <div class="match-box">
+                <div class="match-list-content sp">
+                    <p>0</p>
+                    <p id="elkelanyListLost">0</p>
+                    <p id="elkelanyListEaqal">0</p>
+                    <p id="elkelanyListWin">0</p>
+                    <p>0</p>
+                </div>
+                <div class="match-list-content">
+                    <p>الـكـيـلانـي</p>
+                    <img src="./Pictures/elkelany.png">
+                </div>
+            </div>
+            <div class="match-box">
+                <div class="match-list-content sp">
+                    <p>0</p>
+                    <p id="fasalListLost">0</p>
+                    <p id="fasalListEaqal">0</p>
+                    <p id="fasalListWin">0</p>
+                    <p>0</p>
+                </div>
+                <div class="match-list-content">
+                    <p>فـيـصـل</p>
+                    <img src="./Pictures/fasal.png">
+                </div>
+            </div>
+            <div class="match-box">
+                <div class="match-list-content sp">
+                    <p>0</p>
+                    <p id="mahmodListLost">0</p>
+                    <p id="mahmodListEaqal">0</p>
+                    <p id="mahmodListWin">0</p>
+                    <p>0</p>
+                </div>
+                <div class="match-list-content">
+                    <p>محمود عمرو</p>
+                    <img src="./Pictures/mahmod.png">
+                </div>
+            </div>
+            <div class="match-box">
+                <div class="match-list-content sp">
+                    <p>0</p>
+                    <p id="mosaabListLost">0</p>
+                    <p id="mosaabListEaqal">0</p>
+                    <p id="mosaabListWin">0</p>
+                    <p>0</p>
+                </div>
+                <div class="match-list-content">
+                    <p>مـصـعـب</p>
+                    <img src="./Pictures/mosaab.png">
+                </div>
+            </div>
+            <div class="match-box">
+                <div class="match-list-content sp">
+                    <p>0</p>
+                    <p id="mosahListLost">0</p>
+                    <p id="mosahListEaqal">0</p>
+                    <p id="mosahListWin">0</p>
+                    <p>0</p>
+                </div>
+                <div class="match-list-content">
+                    <p>إبراهيم موسي</p>
+                    <img src="./Pictures/mosah.png">
+                </div>
+            </div>
+            <div class="match-box">
+                <div class="match-list-content sp">
+                    <p>0</p>
+                    <p id="emadListLost">0</p>
+                    <p id="emadListEaqal">0</p>
+                    <p id="emadListWin">0</p>
+                    <p>0</p>
+                </div>
+                <div class="match-list-content">
+                    <p>عماد علي</p>
+                    <img src="./Pictures/emad.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-box" id="profileBox">
+        <div class="welcomeUserContent" style="padding: 0;">
+            <div>
+                <img id="userImg">
+                <h3 id="userName" style="display: none;"></h3>
+                <div class="profile-hr"></div>
+                <div class="user-info">
+                    <h3 id="userprofileW"></h3>
+                    <h3>:المكسب</h3>
+                </div>
+                <div class="user-info">
+                    <h3 id="userprofileE"></h3>
+                    <h3>:التعادل</h3>
+                </div>
+                <div class="user-info">
+                    <h3 id="userprofileL"></h3>
+                    <h3>:الخسارة</h3>
+                </div>
+                <div class="user-info">
+                    <h3 id="coins">0</h3>
+                    <h3>:النقاط</h3>
+                </div>
+                <button style="display: none;" id="addCoinsBtn">Add 5 Coins</button>
+                <button class="all-player" id="AllPlayersBtn">تصفح</button>
+                <div class="profile-hr"></div>
+                <div class="setting-btn">
+                    <button id="lightModeBtn"><i class="fa-regular fa-sun"></i></button>
+                    <button id="resetBtn"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+                    <button id="darkModeBtn"><i class="fa-regular fa-moon"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="welcomeUser" class="welcomeUser">
+        <div class="welcomeUserContent">
+            <h2 style="padding-bottom: 30px;font-size: 1.6em;">أهلاً بك في المسابقة</h2>
+            <div class="span"><i class="fa-regular fa-futbol"></i></div>
+        </div>
+    </div>
+    <div class="login-box" id="LoginBox">
+        <div class="login-content">
+            <h1>التسجيل الأن</h1>
+            <div class="hr"></div>
+            <p>.أدخل المستخدم <i class="fa-solid fa-pencil"></i></p>
+            <input id="InputIdUserName" type="text">
+            <p>.أدخل الكود <i class="fa-solid fa-code-branch"></i></p>
+            <input type="text" id="InputIdUser" style="margin-bottom: 15px;">
+            <h2 style="display: none;" id="errorInput" class="errorText">.تأكد من كود المستخدم</h2>
+            <h2 style="display: none;" id="errorInput2" class="errorText">.يرجا ملئ الحقول</h2>
+            <button class="input-btn" id="InputSubmit">التسجيل</button>
+        </div>
+    </div>
+    <header>
+        <button class="profile-button" id="ProfileBtn">
+            <img id="startimage">
+            <p id="startname"></p>
+        </button>
+        <button class="login-button" id="LoginBtn">التسجيل الأن<i
+                class="fa-solid fa-arrow-right-to-bracket"></i></button>
+        <h1 id="logo" class="logo">المسابقة</h1>
+    </header>
+    <div class="main" id="main">
+        <div class="main-content">
+            <h1 class="main-text" id="MainText">أهلاً بك في مسابقة أفضل لاعب بيس</h1>
+            <div class="box">
+                <button id="CupBtn" class="CupBtn"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="main-button" id="MainBtn">جدول المباريات <i class="fa-regular fa-clipboard"></i></button>
+            </div>
+        </div>
+    </div>
+    <div id="title" class="titleSign">
+        <span style="color: red;margin-right:5px;font-size:1.1em;">!</span> التسجيل اولاً
+    </div>
+    <footer>
+        <p>
+        <p style="display: none;" id="DevolperSign">! </p>
+        جميع الحقوق محفوظة | 2024
+        </p>
+    </footer>
+    <div id="playersList" class="player-list">
+        <div class="players-list-box">
+            <span>2354</span>
+            <span>زين علام</span>
+        </div>
+        <div class="players-list-box">
+            <span>6524</span>
+            <span>احمد البرعي</span>
+        </div>
+        <div class="players-list-box">
+            <span>0011</span>
+            <span>عبدالرحمن الكيلاني</span>
+        </div>
+        <div class="players-list-box">
+            <span>6652</span>
+            <span>فيصل حمادة</span>
+        </div>
+        <div class="players-list-box">
+            <span>9852</span>
+            <span>محمود عمرو</span>
+        </div>
+        <div class="players-list-box">
+            <span>1564</span>
+            <span>مصعب ابراهيم</span>
+        </div>
+        <div class="players-list-box">
+            <span>6451</span>
+            <span>عماد سلامة</span>
+        </div>
+    </div>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
